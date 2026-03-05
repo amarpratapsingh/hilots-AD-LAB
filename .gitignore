@@ -6,6 +6,14 @@ requirements.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
 
 # Torch model files
 *.pt
+*.pth
+
+# Also ignore in all subdirectories
+**/*.npy
+**/*.pt
+**/__pycache__/
