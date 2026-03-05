@@ -1,8 +1,11 @@
 # Requirements
 requirements.txt
 
+# Binaries
 *.npy
 
+# Byte-compiled / optimized / DLL files
 __pycache__/
 
+# Torch model files
 *.pt
