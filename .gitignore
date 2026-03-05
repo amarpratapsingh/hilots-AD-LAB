@@ -1,2 +1,8 @@
 # Requirements
 requirements.txt
+
+*.npy
+
+__pycache__/
+
+*.pt
